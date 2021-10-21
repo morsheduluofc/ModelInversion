@@ -4,7 +4,8 @@ We have implemented and evaluated our proposed
 approach on two existing BA systems: Touchalytics
 (Frank et al., 2013b), and extended version of DAC,
 eDAC (Islam et al., 2021). 
-*ModelInverstionDAC: Touchalytics uses users’
+
+* ModelInverstionDAC: Touchalytics uses users’
 touch data (up-down and left-right scrolling) when in-
 teracting with the profile generator. We downloaded
 Touchalytics data from (Frank et al., 2013a) and it has
@@ -14,3 +15,4 @@ random challenge circles that are presented to them
 to verify their verification request. We downloaded
 eDAC data from (Islam and Safavi-Naini, 2021) that
 has the data of 195 distinct users
+* ModelInverstionTouchalytics:
