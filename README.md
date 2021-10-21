@@ -3,7 +3,8 @@ This Repository has the code of our model inverstion project.
 We have implemented and evaluated our proposed
 approach on two existing BA systems: Touchalytics
 (Frank et al., 2013b), and extended version of DAC,
-eDAC (Islam et al., 2021). Touchalytics uses users’
+eDAC (Islam et al., 2021). 
+*ModelInverstionDAC: Touchalytics uses users’
 touch data (up-down and left-right scrolling) when in-
 teracting with the profile generator. We downloaded
 Touchalytics data from (Frank et al., 2013a) and it has
