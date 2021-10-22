@@ -1,18 +1,6 @@
 # ModelInversion
-This Repository has the code of our model inverstion project.
-We have implemented and evaluated our proposed
-approach on two existing BA systems: Touchalytics
-(Frank et al., 2013b), and extended version of DAC,
-eDAC (Islam et al., 2021). 
+This Repository has the code of our model inverstion project. I have implemented and evaluated the proposed approach on two existing BA systems: extended version of DAC, eDAC (Islam et al., 2021) and Touchalytics (Frank et al., 2013b). 
 
-* ModelInverstionDAC: Touchalytics uses users’
-touch data (up-down and left-right scrolling) when in-
-teracting with the profile generator. We downloaded
-Touchalytics data from (Frank et al., 2013a) and it has
-the data from 41 distinct users. eDAC uses behav-
-ioral features of users that are collected while drawing
-random challenge circles that are presented to them
-to verify their verification request. We downloaded
-eDAC data from (Islam and Safavi-Naini, 2021) that
-has the data of 195 distinct users
-* ModelInverstionTouchalytics:
+* ModelInverstionDAC.ipynd:  eDAC uses behavioral features of users that are collected while drawing random challenge circles that are presented to them to verify their verification request. I downloaded eDAC data from (Islam and Safavi-Naini, 2021) that has the data of 195 distinct users. To reduce the effect of biases that are the result of features having different ranges, I normalized the feature values so that all feature ranges coincide with [0,1]. From each profile, I separated 20.0% of data for testing purposes. Used Synthetic Minority Over-sampling Technique (SMOTE) in the remaining data sample to increase the profile size. I then implemented the proposed methodology for impersonation attack.
+
+* ModelInverstionTouchalytics.ipynd: Touchalytics uses users’ touch data (up-down and left-right scrolling) when in-teracting with the profile generator. I downloaded Touchalytics data from (Frank et al., 2013a) and it has the data from 41 distinct users. I cleaned Touchalytics data before using them in the program. I normalized the feature values in [0,1] and seperated 20.0% of data from each profile for testing purposes. Used Synthetic Minority Over-sampling Technique (SMOTE) in the remaining data sample to increase the profile size.  I then implemented the proposed methodology for impersonation attack.
